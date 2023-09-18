@@ -1,6 +1,9 @@
 #include "tensorflow/cc/client/client_session.h"
+#include "tensorflow/cc/ops/image_ops.h"
+#include "tensorflow/cc/ops/io_ops.h"
 #include "tensorflow/cc/ops/standard_ops.h"
 #include "tensorflow/core/framework/tensor.h"
+#include "tensorflow/core/lib/io/path.h"
 
 using namespace tensorflow;
 using namespace tensorflow::ops;
